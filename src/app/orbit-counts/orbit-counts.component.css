@@ -12,19 +12,3 @@
 .counts span {
 	float: right;
 }
-
-
-.counts2 {
-	background: #34495E;
-	color: #fff;
-	border-radius: 5px;
-	width: 225px;
-}
-
-.counts2 div {
-	padding: 8px;
-}
-
-.counts2 span {
-	float: right;
-}
