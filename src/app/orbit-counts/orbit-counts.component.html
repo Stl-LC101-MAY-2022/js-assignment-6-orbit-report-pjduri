@@ -12,7 +12,7 @@
 <div class = 'counts2'>
 	<div *ngFor = 'let satellite of satellites'>{{satellite.type}}: 
 		<span class="counts-probe">
-			{{countByType(satellite.type)}}
+			{{countByType(satellite.type.trim())}}
 		</span>
 	</div>
 </div>
